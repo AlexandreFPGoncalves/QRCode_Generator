@@ -15,7 +15,7 @@ export const InputsShard = () => {
 	return (
 		<>
 			<div className="flex gap-4">
-				<div className="w-[240px] rounded-lg border-2 border-violet-600 py-1 hover:border-violet-700">
+				<div className="w-[240px] rounded-lg border-2 border-violet-600 px-2 py-1 hover:border-violet-700">
 					<input
 						type="text"
 						className={'text-bold w-full bg-transparent text-center font-semibold outline-none'}
@@ -24,7 +24,7 @@ export const InputsShard = () => {
 						onChange={(e) => setQRCodeUrl(e.target.value)}
 					/>
 				</div>
-				<div className="w-[240px] rounded-lg border-2 border-violet-600 py-1 hover:border-violet-700">
+				<div className="w-[240px] rounded-lg border-2 border-violet-600 px-2 py-1 hover:border-violet-700">
 					<input
 						type="text"
 						className={'text-bold w-full bg-transparent text-center font-semibold outline-none'}
